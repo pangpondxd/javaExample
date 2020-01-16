@@ -25,6 +25,10 @@ public class book {
         System.out.println("Enter a int: ");
         int num = input.nextInt();
         System.out.println("You Enter int: " + num);
+
+        System.out.println("Enter a double type: ");
+        double value = input.nextDouble();
+        System.out.println("You enter double: " + value);
     }
     
 }
