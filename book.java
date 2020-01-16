@@ -18,9 +18,13 @@ public class book {
         
 
         System.out.println("Enter a line text: ");
-        //Wait user enter 
+        //Wait user enter string
         String line = input.nextLine();
-        System.out.println("You Enter: " + line);
+        System.out.println("You Enter String: " + line);
+        //wait user enter int
+        System.out.println("Enter a int: ");
+        int num = input.nextInt();
+        System.out.println("You Enter int: " + num);
     }
     
 }
